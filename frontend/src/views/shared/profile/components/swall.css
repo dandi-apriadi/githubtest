@@ -1,0 +1,50 @@
+/* Mengubah ukuran popup alert */
+.small-alert {
+    width: 400px; /* Lebar lebih kecil */
+    padding: 0; /* Menghilangkan padding atas, bawah, kiri, kanan */
+    font-size: 14px; /* Ukuran font lebih kecil */
+    margin: 0; /* Menghilangkan margin tambahan */
+    border-radius: 10px; /* Menambahkan border radius jika diperlukan */
+}
+
+/* Mengubah ukuran font untuk judul */
+.small-alert-title {
+    font-size: 18px; /* Judul lebih kecil */
+    margin: 0; /* Menghilangkan margin judul */
+    padding: 0; /* Menghilangkan padding judul */
+}
+
+/* Mengubah ukuran font untuk konten */
+.small-alert-content {
+    font-size: 12px; /* Konten lebih kecil */
+    margin: 0; /* Menghilangkan margin konten */
+    padding: 0; /* Menghilangkan padding konten */
+}
+
+/* Menghilangkan margin dan padding pada SweetAlert2 container */
+.swal2-popup {
+    margin: 0 !important; /* Menghilangkan margin popup */
+    padding: 0 !important; /* Menghilangkan padding popup */
+}
+
+/* Menghilangkan margin dan padding pada SweetAlert2 container */
+.swal2-container {
+    margin: 0 !important; /* Menghilangkan margin container */
+    padding: 0 !important; /* Menghilangkan padding container */
+}
+
+/* Menyesuaikan tombol agar tidak ada celah */
+.swal2-actions {
+    margin: 0; /* Menghilangkan margin tombol */
+    padding: 0; /* Menghilangkan padding tombol */
+}
+
+.scrollbar-none {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+  .scrollbar-none::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  
